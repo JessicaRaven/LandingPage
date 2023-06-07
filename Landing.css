@@ -1,11 +1,14 @@
-@font-face{
+/*@font-face{
     font-family:"Roboto";
     src:local("Roboto"),
         url("./fonts/Roboto-Regular.ttf");
-}
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 *{
-font-family:"Roboto";
+font-family:"Almendra";
 }
 
 body{
@@ -39,11 +42,11 @@ a{
     background-color:rgb(33, 66, 18);
     display:flex;
     color:white;
-    padding:84px 0px 84px 112px;
+    padding:84px 112px 84px 112px;
     /*border:solid black;*/
-    gap:20px;
-    justify-content:center;
+    gap:40px;
     align-items:center;
+    
 }
 
 .logo{
@@ -54,26 +57,26 @@ a{
 .right{
     flex:1;
     align-items:center;
-    display:flex;
-    
+    display:flex;  
 }
 
 .dragonPicture{
-    width:450px;
-    height:180px;
+   padding:25% 0%;
     background-color:rgb(100, 190, 40);
     flex:1;
-    margin-right:112px;
+    
 }
 
 .left{
     flex: 1;
-}
+    }
 
 #heroHeader{
     font-size:48px;
     font-weight:bolder;
     color:#F9FAF8;
+    padding:0px;
+    margin:0px;
 
 }
 
@@ -83,10 +86,47 @@ a{
 }
 
 button{
-    background-color:rgb(95, 184, 22);
+    background-color:rgb(121, 201, 30);
     border:none;
     font-size:18px;
     padding:9px 36px;
     border-radius:15px;
 
 }
+
+.info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#dde9ad;
+    padding:0px 112px;
+
+}
+
+.facts{
+    display:flex;
+    align-content:space-evenly;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.pic{
+    border:solid rgb(121, 201, 30);
+    border-radius:10px;
+    height:130px;
+    width:130px;
+}
+
+.caption{
+    width:130px;
+}
+
+.infoHeader{
+    font-size:36px;
+    font-weight:bolder;
+}
+
+.quoteSection
+    {
+        
+    }
