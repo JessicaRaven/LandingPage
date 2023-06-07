@@ -15,8 +15,8 @@ body{
 
 .header{
     display:flex;
-    background-color:rgb(43, 90, 21);
-    color:white;
+    background-color:rgb(33, 66, 18);
+    color:#F9FAF8;
     padding: 16px 112px 0px 112px;
     justify-content:space-between;
 }
@@ -31,11 +31,12 @@ ul{
 
 a{
     text-decoration:none;
-    color: #e5e7eb;
+    color: #dae7dd;
+    font-size:18px;
 }
 
 .contentTop{
-    background-color:rgb(43, 90, 21);
+    background-color:rgb(33, 66, 18);
     display:flex;
     color:white;
     padding:84px 0px 84px 112px;
@@ -54,6 +55,7 @@ a{
     flex:1;
     align-items:center;
     display:flex;
+    
 }
 
 .dragonPicture{
@@ -66,4 +68,25 @@ a{
 
 .left{
     flex: 1;
+}
+
+#heroHeader{
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+
+}
+
+.heroText{
+    font-size:18px;
+    color:#dae7dd;
+}
+
+button{
+    background-color:rgb(95, 184, 22);
+    border:none;
+    font-size:18px;
+    padding:9px 36px;
+    border-radius:15px;
+
 }
