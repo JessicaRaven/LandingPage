@@ -14,6 +14,8 @@ font-family:"Almendra";
 body{
     display:flex;
     flex-direction:column;
+    padding:0px;
+    margin:0px;
 }
 
 .header{
@@ -46,6 +48,7 @@ a{
     /*border:solid black;*/
     gap:40px;
     align-items:center;
+    flex-wrap:wrap;
     
 }
 
@@ -58,6 +61,7 @@ a{
     flex:1;
     align-items:center;
     display:flex;  
+    min-width:200px;
 }
 
 .dragonPicture{
@@ -126,7 +130,25 @@ button{
     font-weight:bolder;
 }
 
-.quoteSection
-    {
-        
+.quoteSection{
+        background-color:#a59b44;
+        align-items:center;
+        justify-content:center;
+        padding:74px 20vw;
+        display:flex;
+        flex-direction:column;
+
+    }
+
+.quote{
+        font-size:30px;
+        font-style:italic;
+        font-weight:lighter;
+    }
+
+.salutation{
+        font-size:24px;
+        font-weight:bold;
+        font-style:italic;
+        align-self:flex-end;
     }
