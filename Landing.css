@@ -1,0 +1,60 @@
+*{
+    font-family:'roboto',Times,serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    display:flex;
+    background-color:rgb(43, 90, 21);
+    color:white;
+    padding: 16px 112px;
+    justify-content:space-between;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    gap: 10px;
+}
+
+a{
+    text-decoration:none;
+    color: #e5e7eb;
+}
+
+.contentTop{
+    background-color:rgb(43, 90, 21);
+    display:flex;
+    color:white;
+    padding:5vw;
+    /*border:solid black;*/
+    gap:20px;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.right{
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.dragonPicture{
+    width:450px;
+    height:150px;
+    background-color:rgb(100, 190, 40);
+
+}
+
+.left{
+    flex: 1;
+}
