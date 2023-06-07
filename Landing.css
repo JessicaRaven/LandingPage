@@ -1,5 +1,11 @@
+@font-face{
+    font-family:"Roboto";
+    src:local("Roboto"),
+        url("./fonts/Roboto-Regular.ttf");
+}
+
 *{
-    font-family:'roboto',Times,serif;
+font-family:"Roboto";
 }
 
 body{
@@ -11,7 +17,7 @@ body{
     display:flex;
     background-color:rgb(43, 90, 21);
     color:white;
-    padding: 16px 112px;
+    padding: 16px 112px 0px 112px;
     justify-content:space-between;
 }
 
@@ -32,27 +38,30 @@ a{
     background-color:rgb(43, 90, 21);
     display:flex;
     color:white;
-    padding:5vw;
+    padding:84px 0px 84px 112px;
     /*border:solid black;*/
     gap:20px;
+    justify-content:center;
+    align-items:center;
 }
 
 .logo{
     font-size:24px;
+    font-weight:600;
 }
 
 .right{
     flex:1;
-    justify-content:center;
     align-items:center;
     display:flex;
 }
 
 .dragonPicture{
     width:450px;
-    height:150px;
+    height:180px;
     background-color:rgb(100, 190, 40);
-
+    flex:1;
+    margin-right:112px;
 }
 
 .left{
