@@ -182,3 +182,15 @@ button{
 .callBanner button{
     border:solid white;
 }
+
+.footer{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    padding:20px;
+    background-color:rgb(33, 66, 18);;
+}
+
+.footer div{
+    color:#dae7dd;
+}
