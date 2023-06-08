@@ -95,7 +95,7 @@ button{
     font-size:18px;
     padding:9px 36px;
     border-radius:15px;
-
+    color:white;
 }
 
 .info{
@@ -152,3 +152,33 @@ button{
         font-style:italic;
         align-self:flex-end;
     }
+
+.callSection{
+    display:flex;
+    padding:70px 112px;
+    background-color:#dde9ad;
+}
+
+ .callBanner{
+        display:flex;
+        padding:20px 90px;
+        justify-content:space-between;
+        align-items:center;
+        background-color: rgb(121, 201, 30);
+        flex:1;
+        border-radius:10px;
+    }
+
+.callText h3{
+    font-size:24px;
+    font-weight:600px;
+    color:white;
+}
+
+.callText p{
+    color:#eef5f0;
+}
+
+.callBanner button{
+    border:solid white;
+}
