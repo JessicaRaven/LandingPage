@@ -65,9 +65,10 @@ a{
 }
 
 .dragonPicture{
-   padding:25% 0%;
+    height:50%;
     background-color:rgb(100, 190, 40);
     flex:1;
+    display:flex;
     
 }
 
@@ -119,6 +120,7 @@ button{
     border-radius:10px;
     height:130px;
     width:130px;
+    display:flex;
 }
 
 .caption{
@@ -193,4 +195,8 @@ button{
 
 .footer div{
     color:#dae7dd;
+}
+
+img{
+    flex:1
 }
